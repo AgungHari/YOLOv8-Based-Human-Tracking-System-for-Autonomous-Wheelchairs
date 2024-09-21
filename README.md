@@ -25,7 +25,7 @@ Actually, you need an ESP32 and the wheelchair to run it.
 - Automatic anti-collision safety feature, when the detected human is within 1 meter.
 - Two speed modes: when going downhill, it will send a delay with each command sent, while in default mode, it uses the standard speed.
 
-![LOGO](https://github.com/user-attachments/assets/65b4bfc3-7e93-4ee3-bf2f-a3f66d561f57)
+![LOGO](https://github.com/user-attachments/assets/95a6c264-e6cd-4ea9-b378-208966d44ba6)
 
 
 
