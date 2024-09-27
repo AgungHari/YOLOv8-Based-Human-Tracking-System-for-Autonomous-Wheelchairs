@@ -1,4 +1,3 @@
-
 # YOLOv8 Based Human Tracking System for Autonomous Wheelchairs. (Sistem Pelacakan Manusia Berbasis YOLOv8 untuk Kursi Roda Otonom.)
 
 Same as the previous project but for human tracking, requested by Dr. Eko Mulyanto Yuniarno,S.T.,M.T
@@ -9,6 +8,14 @@ Same as the previous project but for human tracking, requested by Dr. Eko Mulyan
 ![aldiyolo](https://github.com/user-attachments/assets/876d6f00-ef9b-4f14-a8c0-fc7b76152c97)
 
 ## Installation
+PyPi version
+
+![MediaPipe version](https://img.shields.io/badge/MediaPipe-v0.10.14-blue)
+![Ultralytics version](https://img.shields.io/badge/Ultralytics-v8.1.42-pink)
+![Tensorflow version](https://img.shields.io/badge/Tensorflow-v2.10.1-orange)
+![OpenCV version](https://img.shields.io/badge/OpenCV-v4.9.0.80-green)
+![IPyKernel version](https://img.shields.io/badge/IPyKernel-v6.29.4-yellow)
+
 Actually, you need an ESP32 and the wheelchair to run it.
 
 ```bash
