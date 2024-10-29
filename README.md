@@ -9,6 +9,8 @@
 ![IPyKernel version](https://img.shields.io/badge/IPyKernel-v6.29.4-yellow)
 ![License](https://img.shields.io/badge/License-MIT-darkblue)
 
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
+
 Same as the previous project but for human tracking, requested by Dr. Eko Mulyanto Yuniarno,S.T.,M.T
 
 Combining YOLOV8 and pose landmark, the screen is divided into 3 sections to determine the position of the human. If the bounding box is detected in the left partition, it will turn right, and vice versa, if the bounding box is detected in the right partition, it will turn left, ensuring the human remains in the center. If the human is within a distance of less than 1 meter, it will stop.
