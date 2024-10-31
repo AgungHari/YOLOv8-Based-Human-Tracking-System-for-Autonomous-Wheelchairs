@@ -14,9 +14,24 @@
 Same as the previous project but for human tracking, requested by Dr. Eko Mulyanto Yuniarno,S.T.,M.T
 
 Combining YOLOV8 and pose landmark, the screen is divided into 3 sections to determine the position of the human. If the bounding box is detected in the left partition, it will turn right, and vice versa, if the bounding box is detected in the right partition, it will turn left, ensuring the human remains in the center. If the human is within a distance of less than 1 meter, it will stop.
+
+## Acknowledgements
+
+```bash
+  Coniuncti sumus quod hostes non sunt.
+```
+
 ## Project Result
 
+In this project, a test was conducted at Tower 2 with a scenario that involved navigating the area around Tower 2. The wheelchair followed a path from the second floor to the elevator and then exited toward the parking area. The following video shows the results of this test :
+
 ![aldiyolo](https://github.com/user-attachments/assets/876d6f00-ef9b-4f14-a8c0-fc7b76152c97)
+
+Based on the test results, the following conclusions can be drawn:
+
+![Test](https://img.shields.io/badge/Test_Status-Success-green)
+
+- The wheelchair successfully followed the human from the second floor to the elevator and all the way to the parking area without any issues.
 
 ## Installation
 Actually, you need an ESP32 and the wheelchair to run it.
@@ -29,16 +44,34 @@ Actually, you need an ESP32 and the wheelchair to run it.
   pip install ultralytics
   pip install opencv-python
 ```
-    
+## Contributing
+
+I am open to contributions and collaboration. If you would like to contribute, please create a pull request or contact me directly!
+- Fork this repo.
+- Create a new feature branch:
+
+```bash
+git checkout -b new-feature
+```
+
+- Commit your changes.
+```bash
+git commit -m "ver..."
+```
+
+- Push to the branch:
+```bash
+git push origin new-feature
+```
+
 ## Features
 
 - Automatic anti-collision safety feature, when the detected human is within 1 meter.
 - Two speed modes: when going downhill, it will send a delay with each command sent, while in default mode, it uses the standard speed. 🚀
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/95a6c264-e6cd-4ea9-b378-208966d44ba6" alt="LOGO" width="300">
+  <img src="./logo.svg" alt="LOGO" width="300">
 </p>
-
 
 ## Authors
 
