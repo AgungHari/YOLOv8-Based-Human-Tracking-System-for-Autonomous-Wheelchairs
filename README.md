@@ -1,4 +1,4 @@
-[![universal-personal-banner1](fileagung.png)](https://www.agungg.com/)
+[![banner2](banner2.png)](https://www.agungg.com/)
 
 # YOLOv8 Based Human Tracking System for Autonomous Wheelchairs. (Sistem Pelacakan Manusia Berbasis YOLOv8 untuk Kursi Roda Otonom.)
 
